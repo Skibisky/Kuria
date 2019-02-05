@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <script src="data.js"></script>
+    <script src="kuria.js"></script>
+    <link href="kuria.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <div id="order">
+                <div class="order">
+                    <a id="byPoem" href="javascript:showPoem();">Poem</a>
+                </div>
+                <div class="order">
+                    <a id="byTile" href="javascript:showLocation();">Tileset</a>
+                </div>
+                <div class="order">
+                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=508828282" target="_blank">Source</a>
+                </div>
+            </div>
+            <div id="poem"></div>
+        </div>
+        <div id="content">
+            <div style="display:flex">
+                <img id="image" />
+            </div>
+            <div class="overtext" id="mission"></div>
+            <div class="overtext" id="desc"></div>
+        </div>
+    </div>
+</body>
+
+</html>
